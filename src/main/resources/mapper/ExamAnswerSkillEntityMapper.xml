@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ExamAnswerSkillMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, subject, content, status, click_count, delete_flag, created_user_id, created_time, updated_user_id, last_updated_time, publish_user_id, revoke_user_id, publish_time, revoke_time
+    </sql>
+
+</mapper>
